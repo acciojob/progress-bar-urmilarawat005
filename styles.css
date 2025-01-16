@@ -18,17 +18,17 @@
 }
 
 
-circle.active{
-	background-color: blue;
-	border-color: blue;
-	color: white;
-}
+ .circle.active {
+      background-color: #3498db;
+      border-color: #3498db;
+      color: #fff;
+    }
 
 .line{
 	flex:1;
 	height: 2px;
 	background-color: grey;
-	margin: 0 ;
+	margin: 0 10px;
 	
 }
 
@@ -47,11 +47,11 @@ button{
 	cursor: pointer;
 }
 
-button:disabled{
-	background-color:grey;
-	color: lightgrey;
-	cursor: not-allowed;
-}
+ button:disabled {
+      background-color: #ccc;
+      color: #666;
+      cursor: not-allowed;
+    }
 
 
 
